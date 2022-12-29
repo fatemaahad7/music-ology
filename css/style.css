@@ -1,0 +1,27 @@
+/*--------------------- fonts ---------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+/*--------------------- common styles ---------------------*/
+body {
+    margin: 0;
+    cursor: auto;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+/*--------------------- top banner ---------------------*/
+.banner-text {
+    width: 50%;
+}
+.banner-text h1 {
+    font-size: 3em;
+    margin-bottom: 0;
+}
+.button {
+    text-decoration: none;
+    color: white;
+    background-color: orangered;
+    padding: 5px 20px;
+}
