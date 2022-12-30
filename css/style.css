@@ -62,7 +62,7 @@ nav {
     margin-bottom: 0;
     letter-spacing: 1px;
 }
-.button {
+.reg-button {
     text-decoration: none;
     color: white;
     background-color: orangered;
@@ -78,7 +78,7 @@ nav {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 30px;
+    padding: 50px 30px;
 }
 .dance-text {
     width: 50%;
@@ -104,4 +104,45 @@ nav {
     color: white;
     background-color: #2e2e2e;
     padding: 5px;
+}
+
+
+/* pricing */
+.price-section {
+    text-align: center;
+    color: white;
+    background-image: url(../images/background-pic/plain-bg_02.png);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 30px;
+}
+.pricing-text {
+    width: 50%;
+}
+.price-card-container {
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px 50px;
+}
+/* .price-card-container img {
+    background-color: orangered;
+    width: 100%;
+} */
+.price-card {
+    background-color: orangered;
+    border-radius: 5px;
+    padding: 10px;
+}
+.price-card-text {
+    color: white;
+    background-color: orangered;
+}
+.price-button {
+    background-color: #2e2e2e;
+    border-radius: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
 }
