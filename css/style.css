@@ -13,6 +13,15 @@ body {
     font-size: 3em;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
+.dance-section , 
+.price-section , 
+.statistic-section , 
+.herbert-section {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
 
 /*-------------------- header --------------------*/
@@ -75,9 +84,9 @@ nav {
     text-align: center;
     color: white;
     background-color: orangered;
-    display: flex;
+    /* display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: center; */
     padding-top: 50px;
     padding-bottom: 100px;
 }
@@ -114,9 +123,9 @@ nav {
     text-align: center;
     color: white;
     background-image: url(../images/background-pic/plain-bg_02.png);
-    display: flex;
+    /* display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: center; */
     padding-top: 50px;
     padding-bottom: 100px;
 }
@@ -174,12 +183,12 @@ nav {
 
 /* statistic section */
 .statistic-section {
-    text-align: center;
+    /* text-align: center; */
     color: white;
     background-color: #2e2e2e;
-    display: flex;
+    /* display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: center; */
     padding-top: 50px;
     padding-bottom: 100px;
 }
@@ -206,4 +215,26 @@ nav {
 .statistic-card p {
     font-size: 1.5em;
     margin-top: 0;
+}
+
+/* herbert section */
+.herbert-section {
+    height: 950px;
+    /* text-align: center; */
+    color: white;
+    background-image: url(../images/background-pic/bottom-bg.png);
+    background-repeat: no-repeat;
+    /* display: flex;
+    flex-direction: column; */
+    justify-content: center;
+    /* align-items: center; */
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+.herbert-text {
+    width: 50%;
+    padding-bottom: 50px;
+}
+.herbert-text p {
+    font-size: 1.5em;
 }
