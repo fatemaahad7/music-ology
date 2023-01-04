@@ -247,10 +247,38 @@ nav {
 }
 .subscribe-text {
     width: 50%;
+    padding-bottom: 50px;
 }
 .subscribe-text input {
     width: 400px;
     font-size: 16px;
     border: 0;
     padding: 13px;
+    margin-top: 20px;
+}
+
+
+/*--------------------- footer section ---------------------*/
+.footer-container {
+    color: white;
+    background-color: #2e2e2e;
+    padding: 60px 0px 60px 50px;
+    display: grid;
+    grid-template-columns: 50% repeat(3,1fr);
+}
+#footer-musicology {
+    padding-right: 100px;
+}
+.social-media {
+    display: flex;
+    align-items: center;
+}
+.social-media img {
+    width: 65x;
+    height: 60px;
+}
+.footer-item p {
+    font-size: 18px;
+    margin-top: 4px;
+    margin-bottom: 4px;
 }
