@@ -66,6 +66,7 @@ nav {
     /* use ../ before image link because css is in different folder else background-image won't work */
    
     background-repeat: no-repeat;
+    /* background-attachment: fixed; */
 }
 .banner-text {
     width: 50%;
@@ -270,15 +271,12 @@ nav {
     padding-right: 100px;
 }
 .social-media {
-    display: flex;
-    align-items: center;
+    margin-top: 20px;
 }
 .social-media img {
-    width: 65x;
-    height: 60px;
+    width: 65px;
 }
 .footer-item p {
-    font-size: 18px;
     margin-top: 4px;
     margin-bottom: 4px;
 }
