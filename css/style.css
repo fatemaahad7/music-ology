@@ -36,15 +36,12 @@ header ,
     color: white;
     background-color: #2e2e2e;
 }
-.reg-button {
+.button {
     text-decoration: none;
     color: white;
-    background-color: orangered;
+    background-color: #2e2e2e;
     border-radius: 3px;
     padding: 10px 30px;
-}
-.button {
-    background-color: #2e2e2e;
 }
 
 /*-------------------- header --------------------*/
@@ -89,7 +86,9 @@ nav {
     margin-bottom: 0;
     letter-spacing: 2px;
 }
-
+.reg-button {
+    background-color: orangered;
+}
 
 /*--------------------- dance tour ---------------------*/
 .dance-text {
