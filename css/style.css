@@ -7,11 +7,10 @@ body {
     margin: 0;
     cursor: auto;
     font-family: 'Poppins', sans-serif;
-    position: relative;
 }
 .section-title {
     font-size: 3em;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
 }
 .dance-section , 
 .price-section , 
@@ -25,6 +24,18 @@ body {
     padding-top: 50px;
     padding-bottom: 100px;
 }
+.dance-section ,
+.price-card-text ,
+.blog {
+    color: white;
+    background-color: orangered;
+}
+header ,
+.statistic-section ,
+.footer-container {
+    color: white;
+    background-color: #2e2e2e;
+}
 .reg-button {
     text-decoration: none;
     color: white;
@@ -36,11 +47,6 @@ body {
 }
 
 /*-------------------- header --------------------*/
-header {
-    color: white;
-    background-color: #2e2e2e;
-    position: relative;
-}
 nav {
     display: flex;
     justify-content: space-between;
@@ -66,7 +72,6 @@ nav {
     /* use ../ before image link because css is in different folder else background-image won't work */
    
     background-repeat: no-repeat;
-    /* background-attachment: fixed; */
 }
 .banner-text {
     width: 50%;
@@ -86,16 +91,6 @@ nav {
 
 
 /*--------------------- dance tour ---------------------*/
-.dance-section {
-    text-align: center;
-    color: white;
-    background-color: orangered;
-    /* display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-top: 50px;
-    padding-bottom: 100px; */
-}
 .dance-text {
     width: 50%;
     padding-bottom: 50px;
@@ -126,14 +121,8 @@ nav {
 
 /*--------------------- pricing ---------------------*/
 .price-section {
-    text-align: center;
     color: white;
     background-image: url(../images/background-pic/plain-bg_02.png);
-    /* display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-top: 50px;
-    padding-bottom: 100px; */
 }
 .pricing-text {
     width: 50%;
@@ -153,10 +142,6 @@ nav {
 .price-card img {
     margin-top: 15px;
 }
-.price-card-text {
-    color: white;
-    background-color: orangered;
-}
 .price-button {
     font-size: 1.2em;
     background-color: #2e2e2e;
@@ -164,7 +149,7 @@ nav {
     padding: 8px 30px;
 }
 
-/*--------------------- amazing, best dance secrtion ---------------------*/
+/*--------------------- amazing, best dance section ---------------------*/
 .blog-dance-section {
     display: grid;
     grid-template-columns: repeat(2,1fr);
@@ -174,8 +159,6 @@ nav {
     height: 100%;
 }
 .blog {
-    color: white;
-    background-color: orangered;
     padding-left: 50px;
     padding-right: 50px;
     display: flex;
@@ -185,16 +168,6 @@ nav {
 
 
 /*--------------------- statistic section ---------------------*/
-.statistic-section {
-    /* text-align: center; */
-    color: white;
-    background-color: #2e2e2e;
-    /* display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-top: 50px;
-    padding-bottom: 100px; */
-}
 .statistic-text {
     width: 50%;
     padding-bottom: 50px;
@@ -223,16 +196,10 @@ nav {
 /*--------------------- herbert section ---------------------*/
 .herbert-section {
     height: 815px;
-    /* text-align: center; */
     color: white;
     background-image: url(../images/background-pic/bottom-bg.png);
     background-repeat: no-repeat;
-    /* display: flex;
-    flex-direction: column; */
     justify-content: center;
-    /* align-items: center;
-    padding-top: 50px;
-    padding-bottom: 100px; */
 }
 .herbert-text {
     width: 50%;
@@ -261,8 +228,6 @@ nav {
 
 /*--------------------- footer section ---------------------*/
 .footer-container {
-    color: white;
-    background-color: #2e2e2e;
     padding: 60px 0px 60px 50px;
     display: grid;
     grid-template-columns: 50% repeat(3,1fr);
